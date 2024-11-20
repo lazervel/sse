@@ -1,0 +1,39 @@
+{
+  "name": "modassir/source",
+  "description": "A PHP library for Server-Sent Events (SSE) implementation",
+  "type": "library",
+  "keywords": ["sse", "source", "php", "socket", "auto-response"],
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/lazervel",
+  "autoload": {
+    "psr-4": {
+      "Modassir\\SSE\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.0 || ^8.0",
+    "modassir/promise": "^3.0"
+  },
+  "authors": [
+    {
+      "name": "Shahzada Modassir",
+      "email": "shahzadamodassir@gmail.com",
+      "homepage": "https://github.com/shahzadamodassir"
+    }
+  ],
+  "funding": [
+    {
+      "type": "Github",
+      "url": "https://github.com/shahzadamodassir"
+    },
+    {
+      "type": "Patreon",
+      "url": "https://patreon.com/shahzadamodassir"
+    },
+    {
+      "type": "Opencollective",
+      "url": "https://opencollective.com/shahzadamodassir"
+    }
+  ],
+  "minimum-stability": "stable"
+}
