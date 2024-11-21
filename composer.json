@@ -1,5 +1,5 @@
 {
-  "name": "modassir/source",
+  "name": "modassir/sse",
   "description": "A PHP library for Server-Sent Events (SSE) implementation",
   "type": "library",
   "keywords": ["sse", "source", "php", "socket", "auto-response"],
